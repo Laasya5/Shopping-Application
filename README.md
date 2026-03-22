@@ -23,13 +23,13 @@ Operations
 -Delivery status
 
 Services
-1.Login service--Creating Users
-2.Admin -- managing
-3.Product service
-4.Cart service
-5.order service
-6.payment
-7.shipment
+1.Login service--Creating Users,login user,logout user
+2.Admin -- managing users, update users, delete
+3.Product service -- Admin(post products, update product availability, searching) Customer(Searching by product name)[Filter in UI (sorting)]
+4.Cart service -- add to cart, remove from cart(all, one item), showing cart
+5.order service -- order placing,order cancelling, showing orders Admin(showing orders by userid)
+6.payment -- paying, refunding
+7.shipment -- kafka --showing shipment status , updating shipment status
 8.api gateway
 9.config server
 10.eureka server
