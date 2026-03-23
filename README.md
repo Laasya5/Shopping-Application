@@ -46,4 +46,4 @@ Entities
 8.SHipment(shipmentid,orderid, shipmnet partner,tracking num,status,expected delivery date,delivered date)
 9.Cart(id,cartid,productid,quantity)
 
-![WhatsApp Image 2026-03-23 at 3 18 38 PM](https://github.com/user-attachments/assets/52f22c83-4a86-411d-a135-65ad8587b311)
+![ER Diagram](https://github.com/user-attachments/assets/52f22c83-4a86-411d-a135-65ad8587b311)
