@@ -47,3 +47,36 @@ Entities
 9.Cart(id,cartid,productid,quantity)
 
 ![ER Diagram](https://github.com/user-attachments/assets/52f22c83-4a86-411d-a135-65ad8587b311)
+
+LOGIN SERVICE
+-rbac
+-spring security
+-jwt
+-oauth
+
+ADMIN SERVICE
+-Controls users,products,orders
+-rbac
+-feign client(user ser,prod ser,order ser,inventory ser)
+
+PRODUCT SERVICE
+-Availability---Inventory(Kafkac) 
+-rbac
+-search n sort n filter
+
+
+CART SERVICE
+-feign client(prod service,order)
+-jwt token validation for each user
+-redis
+-rbac
+
+ORDER SERVICE
+-redis
+
+PAYMENT SERVICE
+
+SHIPMENT SERVICE
+
+INVENTORY SERVICE
+-rbac
