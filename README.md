@@ -36,7 +36,7 @@ Services
 11.eureka server
 
 Entities
-1.Users(userid, usrname, pwd,email,role,created on)
+1.Users(userid, usrname(no duplicate), pwd,email(no duplicate),role,created on)
 2.Products(productId,name,category,price,availability,description,image,discount,rating)
 3.Orders(orderid,userid,total,status,paymentid,shipmentid)
 4.Order Items(id,orderid,productid,quantity,eachprice,totalprice)
